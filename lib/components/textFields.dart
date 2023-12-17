@@ -17,7 +17,7 @@ class customtextFormField extends StatelessWidget {
                 validator: (data){
                   if(data!.isEmpty){
                     return 'field is required!';
-                  }
+                  }return '';
                 },
                 onChanged: onChange,
                 style: const TextStyle(color:kPrimaryColor,),

@@ -18,7 +18,7 @@ class SplashView extends StatelessWidget {
           },
           childWidget:  Image.asset("assets/images/1.png"),
           onAnimationEnd: () => debugPrint("On Fade In End"),
-          nextScreen:  ChatterSignIn(),
+          nextScreen:  LoginPage(),
         );
   }
 }
